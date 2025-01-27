@@ -1,6 +1,6 @@
 {
   "name": "@silentsilas/vite-plugin-ai-robots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite plugin to automatically update your robots.txt via Dark Visitor API to block the latest list of AI user agents",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,7 @@
     "dev": "tsup src/index.ts --dts --watch",
     "prepare": "npm run build"
   },
+  "homepage": "https://git.silentsilas.com/silentsilas/vite-plugin-ai-robots",
   "author": "silentsilas",
   "license": "MIT",
   "devDependencies": {
@@ -19,5 +20,9 @@
   },
   "peerDependencies": {
     "vite": "^5.0.0 || ^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.silentsilas.com:silentsilas/vite-plugin-ai-robots.git"
   }
 }
